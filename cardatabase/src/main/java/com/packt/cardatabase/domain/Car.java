@@ -32,6 +32,8 @@ public class Car {
 		this.price = price;
 		this.owner = owner;
 	}
+
+	public Car(){}
 	
 	public Owner getOwner() {
 		return owner;

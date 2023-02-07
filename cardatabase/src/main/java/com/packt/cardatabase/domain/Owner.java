@@ -30,6 +30,8 @@ public class Owner {
 		this.lastename = lastename;
 	}
 
+	public Owner(){}
+
 	public List<Car> getCar() {
 		return cars;
 	}
